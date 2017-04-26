@@ -34,6 +34,7 @@ extern "C" {
 
 
 // Define moter values
+/*
 const int claw1 = 1;
 const int lift1 = 2;
 const int lift2 = 3;
@@ -43,7 +44,7 @@ const int unused6 = 6;
 const int unused7 = 7;
 const int lift3 = 8;
 const int leftMotor = 9;
-const int claw2 = 10;
+const int claw2 = 10;*/
 //const int moter[10] = {1, 3};
 
 // A function prototype looks exactly like its declaration, but with a semicolon instead of

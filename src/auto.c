@@ -10,8 +10,12 @@
  * obtained from http://sourceforge.net/projects/freertos/files/ or on request.
  */
 
-#include "main.h"
 
+#include "main.h"
+#include "API.h"
+#include "songs.h"
+
+//void motorSet(unsigned char channel, int speed);
 /*
  * Runs the user autonomous code. This function will be started in its own task with the default
  * priority and stack size whenever the robot is enabled via the Field Management System or the
@@ -24,7 +28,10 @@
  * available, and it can access joystick information if called in this way.
  *
  * The autonomous task may exit, unlike operatorControl() which should never exit. If it does
- * so, the robot will await a switch to another mode or disable/enable cycle.
- */
+ * so, the robot will await a switch to another mode or disable/enable cycle.*/
 void autonomous() {
+  //motorSet(rightMotor, 10);
+//  wait(100);
+//  motorStop(rightMotor);
+  speakerPlayRtttl(addamsFam);
 }
